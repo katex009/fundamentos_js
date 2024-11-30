@@ -58,10 +58,23 @@ let num2 = 20;
 // alert(num3);
 
 //operadores de comparacion
-alert( 2 > 1 );
-alert( 2 < 1);
-alert( 2 == 1 );
-alert( 2 != 1 );
+
+// alert( 2 > 1 );
+// alert( 2 < 1);
+// alert( 2 == 1 );
+// alert( 2 != 1 );
 
 //condicionasles
+
+let year = prompt('ingrese el año actual:');
+
+if( year == 2024){
+    alert('felicidades te sabes el año');
+}
+else if( year < 2024){
+    alert('lo intentaste')
+}
+else{
+    alert('eres idiota');
+}
 
