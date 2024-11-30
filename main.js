@@ -31,9 +31,9 @@ let Myheight2 = undefined;
 
 //confirm
 
-let isBoss = confirm('eres el jefe?');
+//let isBoss = confirm('eres el jefe?');
 
-alert(isBoss);
+//alert(isBoss);
 
 //operadores matematicos
 let num1 = 10;
@@ -66,15 +66,53 @@ let num2 = 20;
 
 //condicionasles
 
-let year = prompt('ingrese el año actual:');
+//let year = prompt('ingrese el año actual:');
 
-if( year == 2024){
-    alert('felicidades te sabes el año');
-}
-else if( year < 2024){
-    alert('lo intentaste')
+// if( year == 2024){
+//     alert('felicidades te sabes el año');
+// }
+// else if( year < 2024){
+//     alert('lo intentaste')
+// }
+// else{
+//     alert('eres idiota');
+// }
+
+//operadores logicos 
+
+//or ||
+
+// alert( true || true ); //true
+// alert( true || false ); //true
+// alert( false || true ); //true
+// alert( false || false ); //false
+
+// let hour = 12;
+// let isWeekend = true;
+
+// if( hour < 9 || hour > 18 || isWeekend ){
+//     alert('la oficina esta cerrada');
+// }
+
+//and &&
+
+// alert( true && true ); //true
+// alert( true && false ); //false
+// alert( false && true ); //false
+// alert( false && false ); //false
+
+let name = prompt('quien eres?');
+
+if( name == "admin" ){
+    let contraseña = prompt('ingrese su contraseña')
+    if(contraseña == 123456){
+        alert('bienvenido')
+    }
+    else{
+        alert('contraseña incorrecta')
+    }
 }
 else{
-    alert('eres idiota');
+    alert('no te conozco')
 }
 
